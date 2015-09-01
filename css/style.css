@@ -1,0 +1,49 @@
+head, body, div, section, img, nav,p, header, ul, figure, button{
+	margin: auto 0;
+	padding:0;
+}
+p{
+	color: red;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+#letters{
+	width: 95%;
+	padding-top: .5em;
+	padding-left: .5em;
+	padding-right: .5em;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
